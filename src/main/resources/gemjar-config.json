@@ -23,15 +23,5 @@
     "browserName": "Chrome",
     "launchUrl": "https://jewel-beta.gemecosystem.com/",
     "browserTimeout": 10
-  },
-  "dev":{
-    "browserName": "Chrome",
-    "launchUrl": "https://jewel.gemecosystem.com/",
-    "browserTimeout": 10
-  },
-  "other":{
-    "browserName": "Chrome",
-    "launchUrl": "https://jewel.gemecosystem.com/",
-    "browserTimeout": 10
   }
 }
