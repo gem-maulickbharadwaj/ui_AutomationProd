@@ -31,13 +31,7 @@ Feature: Welcome Screen
 #
   Scenario: Clicking on jewel dashboard logo and validate redirecting
     Given click on jewel dashboard button
-#
-  Scenario Outline: Clicking on gemPYP
-    Given click on gemPYP and validate url <pyp>
-    Examples:
-      | pyp                              |
-      | https://gempyp.gemecosystem.com/ |
-#
+
 #  Scenario Outline: Clicking on gemPRF
 #    Given click on gemPRF and validate url <prf>
 #    Examples:
@@ -49,6 +43,3 @@ Feature: Welcome Screen
     Examples:
       | jar                              |
       | https://gemjar.gemecosystem.com/ |
-#
-  Scenario: Click on pricing logo
-    Given click on pricing button
